@@ -19,7 +19,7 @@ export default function Q3Page() {
       {/* 画布容器 */}
       <div className="relative w-[390px] h-[844px] rounded-[28px] overflow-hidden shadow-2xl bg-[linear-gradient(180deg,#C9522C_0%,#E38C62_40%,#F6E0C7_100%)]">
 
-        {/* ===== 标题 (文字) ===== */}
+        {/* ===== 标题 ===== */}
         <span
           style={{
             position: 'absolute',
@@ -163,7 +163,7 @@ export default function Q3Page() {
           Confirm
         </button>
 
-        {/* ===== 提示语 (文字) ===== */}
+        {/* ===== 提示语 ===== */}
         <span
           style={{
             position: 'absolute',
