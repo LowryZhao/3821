@@ -146,7 +146,7 @@ export default function Q3Page() {
         {/* ===== Confirm 按钮 ===== */}
         <button
           disabled={!selected}
-          onClick={onConfirm}
+          onClick={() => router.push('/q4')}
           style={{
             position: 'absolute',
             top: 694,
